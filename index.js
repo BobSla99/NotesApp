@@ -1,9 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
-const mongoose = require("mongoose");
 const Note = require("./models/note");
-const contact = require("../phonebookBackend/models/contact");
 
 const app = express();
 // Note.find({}).then((r) => console.log("co",JSON.stringify(r)));
