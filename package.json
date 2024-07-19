@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf dist && cd ../../part2/genrl/ && npm run build && cp -r dist ../../part3/notesApp",
-    "deploy:full":"npm run build:ui && git add . &&  git commit -m uibuild && git push"
+    "deploy:full": "npm run build:ui && git add . &&  git commit -m uibuild && git push",
+    "start": "node index.js"
   },
   "author": "Roberto",
   "license": "ISC",
